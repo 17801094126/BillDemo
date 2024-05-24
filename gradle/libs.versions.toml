@@ -1,0 +1,38 @@
+[versions]
+agp = "8.3.0"
+kotlin = "2.0.0"
+ksp = "2.0.0-1.0.21"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+roomversion = "2.6.1"
+glideVersion = "4.16.0"
+jetbrainsKotlinJvm = "1.9.0"
+lifecycleVersion = "2.8.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+room = {group = "androidx.room", name = "room-runtime", version.ref = "roomversion"}
+room-compiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomversion"}
+glide = {group = "com.github.bumptech.glide", name ="glide", version.ref= "glideVersion" }
+lifecycle-viewmodel = {group = "androidx.lifecycle" , name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleVersion"}
+lifecycle-runtime = {group = "androidx.lifecycle" , name = "lifecycle-runtime-ktx", version.ref = "lifecycleVersion"}
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = {id = "com.google.devtools.ksp",version.ref = "ksp"}
+jetbrainsKotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

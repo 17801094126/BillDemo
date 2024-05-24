@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_757474">#757474</color>
+    <color name="color_F60202">#F60202</color>
+    <color name="color_F3DA06">#F3DA06</color>
+    <color name="color_06AEFA">#06AEFA</color>
+    <color name="market_red">#EA2827</color>
+    <color name="green_percent_2">#47BC47</color>
+</resources>
